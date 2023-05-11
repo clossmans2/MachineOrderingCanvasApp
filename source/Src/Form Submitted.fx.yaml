@@ -1,0 +1,60 @@
+"'Form Submitted' As screen":
+
+    Label1 As label:
+        Align: =Align.Center
+        DisplayMode: =DisplayMode.View
+        FontWeight: =FontWeight.Semibold
+        Height: =31
+        Size: =16
+        Text: ="Your request was submitted successfully."
+        Width: =1366
+        Y: =256
+        ZIndex: =4
+
+    Header_2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =4
+
+        "'Header Label_2' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =60
+            Size: =18
+            Text: ="Machine Ordering"
+            Width: =1366
+            ZIndex: =1
+
+        "'User Label_2' As label":
+            Align: =Align.Right
+            Color: =Color.Gray
+            Text: ="Hello, " & User().FullName
+            Width: =200
+            X: =1166
+            ZIndex: =2
+
+        "'Logo Image_2' As image":
+            Height: |-
+                =
+                60
+            Image: |-
+                ="https://images-us-prod.cms.commerce.dynamics.com/cms/api/qbvttlwqcm/imageFileData/MA20RY?ver=c4b6&m=6&q=100"
+            Width: =200
+            ZIndex: =3
+
+    "'Return Button' As button":
+        Fill: =Color.Black
+        OnSelect: =Navigate('Main Screen', ScreenTransition.Fade);Clear(CompareList)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Return to Main Screen"
+        Width: =280
+        X: =543
+        Y: =318
+        ZIndex: =5
+
