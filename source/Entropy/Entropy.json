@@ -81,7 +81,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/11/2023 19:13:50",
+  "HeaderLastSavedDateTimeUTC": "05/11/2023 19:14:54",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17dc4cc9-742b-42f4-878f-d764a8610fc9": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/a4bb975fd5db4d65852619b1821e9c48\""
@@ -259,11 +259,11 @@
     "Header Label": 0,
     "Header Label_1": 16,
     "Header Label_2": 65,
-    "Header_1": 18,
-    "Header_2": 67,
+    "Header_1": 20,
+    "Header_2": 68,
     "Host": 0,
     "HourValue1": 60,
-    "Icon1": 20,
+    "Icon1": 19,
     "Image3": 6,
     "Image4": 10,
     "Label1": 69,
@@ -295,8 +295,8 @@
     "Subtitle2": 12,
     "Title2": 11,
     "User Label": 3,
-    "User Label_1": 19,
-    "User Label_2": 68
+    "User Label_1": 18,
+    "User Label_2": 67
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
